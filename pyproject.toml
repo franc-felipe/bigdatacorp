@@ -1,0 +1,18 @@
+[project]
+name = "bigdatacorp-enriquecimento"
+version = "0.1.0"
+description = "Projeto que visa enriquecer dados de clientes do Prolog usando os datasets da BigDataCorp"
+authors = [
+    {name = "Felipe Francisco",email = "felipe.francisco@prologapp.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.5,<3.0.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

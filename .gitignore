@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environment
+.venv/
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
